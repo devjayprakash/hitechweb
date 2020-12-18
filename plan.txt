@@ -1,0 +1,35 @@
+Idea
+To create a portfolio website for hitechweb which can showcase all the projexts and 
+all the experience that the company has.
+
+Tech used
+    Technology plan
+        -> Basically the website will be a mern stack website fully build in react express mongo db
+        and node
+        -> All the ui designing will be custum and no external styling libraries will be used.
+
+
+    List of the the main core tech that will be used :-
+        -> React 
+        -> express
+        -> mongo db
+        -> node
+        -> sass
+
+
+list of all the tasks that are to be done
+    [] the the priamry project setup
+    [] the homepage ui sturucture
+    [] styling the homepage
+    [] creating the products detail page sturucture 
+    [] styling the product delail page
+    [] creating the about us page
+    [] styling the about us page 
+    [] creating the contact us page
+    [] styling the contact us page 
+    [] make the ui planning for the admin panel
+    [] make the admin panel
+    [] implement the security
+    [] test everything 
+    [] deploy the site
+    [] be happy
