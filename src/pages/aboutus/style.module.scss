@@ -1,0 +1,47 @@
+.topBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pageTxt {
+        width: 50%;
+        padding: 50px;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+        }
+
+        .pageTitle {
+            color: white;
+            font-size: 27pt;
+        }
+        .pageDecription {
+            color: white;
+        }
+
+        .pageBtn {
+            padding: 7px 20px;
+            background-color: rgba($color: #ffffff, $alpha: 0.2);
+            width: 150px;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            backdrop-filter: blur(50px);
+        }
+    }
+
+    .topImage {
+        background-image: url('/images/illustration1.png');
+        width: 50%;
+        height: 100vh;
+        background-size: contain;
+        height: 500px;
+        background-repeat: no-repeat;
+        transform: translateY(100px);
+    }
+}
+
+.mission {
+    padding: 100px;
+    color: white;
+}

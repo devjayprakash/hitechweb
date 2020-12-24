@@ -1,0 +1,246 @@
+// Developed by - Jay prakash pathak
+// Date - 20 December 2020
+
+.topBanner {
+    width: 100vw;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .txtPart {
+        width: 50vw;
+        padding: 70px;
+
+        @media only screen and (max-width: 600px) {
+            width: 100vw;
+            padding: 20px;
+        }
+
+        .mainTxt {
+            font-size: 34pt;
+            color: white;
+        }
+
+        .dec {
+            color: rgb(231, 231, 231);
+            font-size: 16pt;
+        }
+        .contactUsBtn {
+            padding: 7px 20px;
+            border-radius: 34px;
+            border: 2px solid #ddd;
+            margin-top: 30px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .bannerImg {
+        background-image: url('/images/highpernova.png');
+        background-size: cover;
+        width: 700px;
+        height: 500px;
+        transform: translateY(200px);
+        border-radius: 33px 0px 0px 33px;
+
+        @media only screen and (max-width: 600px) {
+            transform: translate(200px, -20vh);
+            z-index: -1;
+            opacity: 0.4;
+        }
+    }
+}
+
+.whatwedo {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('/images/whatwedoback.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 400px;
+
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.2);
+        width: 250px;
+        height: 250px;
+        backdrop-filter: blur(20px);
+        border: solid 1px rgb(83, 83, 83);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media only screen and (max-width: 600px) {
+            margin-top: 30px;
+        }
+        .cardTitle {
+            color: white;
+            font-size: 13pt;
+        }
+        .knowMore {
+            padding: 5px 30px;
+            color: white;
+            text-decoration: none;
+            backdrop-filter: blur(50px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 23px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.appdev {
+    min-height: 100vh;
+    background-image: url('/images/galaxy.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .title {
+        font-size: 23pt;
+        color: white;
+        padding: 70px;
+
+        @media only screen and (max-width: 600px) {
+            padding: 20px;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+
+        .left {
+            transform: rotate(-180deg);
+        }
+
+        .slider {
+            display: flex;
+            height: 60vh;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgb(71, 71, 71);
+
+            @media only screen and (max-width: 600px) {
+                flex-wrap: wrap;
+                height: fit-content;
+                width: 80%;
+            }
+
+            .sliderImg {
+                width: 500px;
+                background-image: url('/images/musicDhoom.png');
+                background-position: left bottom;
+                background-size: cover;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+
+                @media only screen and (max-width: 600px) {
+                    width: 100%;
+                    padding: 0px;
+                    height: 200px;
+                    background-position: center;
+                }
+            }
+
+            .sliderTxt {
+                padding: 40px;
+                width: 400px;
+
+                @media only screen and (max-width: 600px) {
+                    padding: 10px;
+                    width: 100%;
+                    height: 250px;
+                }
+
+                .sliderTitle {
+                    font-size: 20pt;
+                    color: white;
+                }
+
+                .sliderDec {
+                    color: #f8f8f8;
+                }
+
+                .sliderBtn {
+                    padding: 5px 30px;
+                    color: white;
+                    text-decoration: none;
+                    backdrop-filter: blur(50px);
+                    background-color: rgba(255, 255, 255, 0.2);
+                    border-radius: 23px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.contactUs {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/contactUsBack.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    .title {
+        padding: 40px;
+        font-size: 23pt;
+        color: white;
+
+        @media only screen and (max-width: 600px) {
+            padding: 20px;
+        }
+    }
+    .contactCon {
+        width: fit-content;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(50px);
+        padding: 40px;
+        margin-left: 40px;
+
+        @media only screen and (max-width: 600px) {
+            margin: 20px;
+        }
+
+        .ourCon {
+            color: white;
+
+            .or {
+                color: rgb(221, 221, 221);
+            }
+
+            .contactUsForm {
+                padding: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                input {
+                    margin: 10px 0px;
+                    padding: 10px;
+                    font-size: 13pt;
+                    border: none;
+                    backdrop-filter: blur(50px);
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+}

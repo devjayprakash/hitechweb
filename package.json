@@ -1,0 +1,30 @@
+{
+  "name": "hitechcrux",
+  "version": "1.0.0",
+  "description": "this is the official website of the hitechweb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelopAppWithMe/hitechweb.git"
+  },
+  "author": "jay prakash pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevelopAppWithMe/hitechweb/issues"
+  },
+  "homepage": "https://github.com/DevelopAppWithMe/hitechweb#readme",
+  "dependencies": {
+    "hamburger-react": "^2.4.0",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-spring": "^8.0.27",
+    "react-use-gesture": "^9.0.0-beta.11",
+    "sass": "^1.30.0"
+  }
+}

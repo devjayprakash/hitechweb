@@ -18,9 +18,9 @@ Tech used
 
 
 list of all the tasks that are to be done
-    [] the the priamry project setup
-    [] the homepage ui sturucture
-    [] styling the homepage
+    [*] the the priamry project setup
+    [*] the homepage ui sturucture
+    [*] styling the homepage
     [] creating the products detail page sturucture 
     [] styling the product delail page
     [] creating the about us page

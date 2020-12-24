@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .brand {
+        font-size: 18pt;
+        padding: 1rem;
+        color: white;
+
+        @media only screen and (max-width: 600px) {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        div {
+            display: none;
+
+            @media only screen and (max-width: 600px) {
+                display: block;
+            }
+        }
+    }
+
+    ul {
+        padding-right: 2rem;
+        display: flex;
+        will-change: height;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+            padding: 0rem;
+            display: unset;
+        }
+
+        li {
+            display: flex;
+
+            @media only screen and (max-width: 600px) {
+                flex-direction: column;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 30px;
+
+                &:hover {
+                    backdrop-filter: blur(50px);
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+            }
+        }
+    }
+}
