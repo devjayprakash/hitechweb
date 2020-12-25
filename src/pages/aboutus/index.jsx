@@ -10,13 +10,8 @@ import style from './style.module.scss'
 
 let CoreConcepts = () => {
     return (
-        <div
-            className={style.mission}
-            style={{
-                display: 'flex',
-            }}
-        >
-            <div style={{ width: '50%' }}>
+        <div className={style.coreConcepts}>
+            <div className={style.txt}>
                 <h1>
                     Some of the core concepts on which we work are as follows:-
                 </h1>
@@ -46,14 +41,7 @@ let CoreConcepts = () => {
                     </ul>
                 </p>
             </div>
-            <div
-                style={{
-                    width: '50%',
-                    backgroundImage: `url("/images/illustrator.png")`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
-            ></div>
+            <div className={style.img}></div>
         </div>
     )
 }

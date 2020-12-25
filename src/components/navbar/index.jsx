@@ -18,7 +18,7 @@ let NavLinks = [
     {
         key: 3,
         text: 'Contact us',
-        address: '/',
+        address: '/contactus',
     },
 ]
 

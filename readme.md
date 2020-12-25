@@ -1,6 +1,9 @@
 <h1>
     hitechweb
 </h1>
+
+#The website is hosted and you can see it here <br /> <a href="https://hitechweb.vercel.app/">click here to see the site</a>
+
 <p>
     This is the official website of the hitech with the vision to provide the 
     out experience and expertise in the most advanced and beautiful possible.

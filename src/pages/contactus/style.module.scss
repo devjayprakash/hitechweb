@@ -1,0 +1,61 @@
+.contactUsPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-60px);
+    pointer-events: none;
+
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap-reverse;
+        transform: translateY(100px);
+    }
+
+    .contactUsTxt {
+        width: 50%;
+        color: white;
+        padding: 50px;
+        margin: 50px;
+        height: fit-content;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        backdrop-filter: blur(50px);
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+            margin: 10px;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            backdrop-filter: blur(50px);
+            background-color: rgba($color: #ffffff, $alpha: 0.3);
+        }
+
+        button {
+            width: 200px;
+            backdrop-filter: blur(50px);
+            background-color: rgba($color: #2600ff, $alpha: 0.3);
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+        }
+    }
+
+    .contactImg {
+        background-image: url('/images/conatctillu.svg');
+        width: 50%;
+        height: 300px;
+        pointer-events: none;
+        background-size: cover;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+            z-index: -1;
+        }
+    }
+}

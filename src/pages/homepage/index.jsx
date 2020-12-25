@@ -32,7 +32,7 @@ let ContactUs = () => {
             <div className={style.contactCon}>
                 <div className={style.ourCon}>
                     Email id - jayprkshpthk@gmail.com <br /> Phone Number - +91
-                    7903672971
+                    9876543210
                     <br /> <br />
                     <div className={style.or}>
                         or you can fill this form and we will contact you
